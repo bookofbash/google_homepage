@@ -1,17 +1,24 @@
 
+#submit{
+	background-color: #e4e6e8;
+	-webkit-border-radius: 0px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Arial'
+	border:none;
+	cursor:pointer;
+	box-shadow: 0px 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+}
 
-body { 
-	align-content: center;
-	text-decoration: 30px
-
- }
-
- img {
- 	align-content: center;
- }
-
-#fakebox input{
-	height: 30px;
-	font-size: 30px
+#submit:hover {
+	border: none;
+	background:#e4e6e8;
+	box-shadow: 0px 0px 1px
 
 }
+
+.fakesearch{
+	color:red;
