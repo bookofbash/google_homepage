@@ -1,24 +1,17 @@
-element.style {
-	width: 663px;
-}
-div #search{
-	background-color: #fff
-	border 1px solid rgb(185, 185, 185);
-	border-radius: 1px
-	border-top-color: rgb(160, 160,60);
-	cursor: text;
-	font size: 18px;
-	height: 36px;
-	line-height: 36px;
-	max-width: 672px;
-	position: relative;
-}
+
 
 body { 
-	align-content: center
+	align-content: center;
+	text-decoration: 30px
 
  }
 
  img {
  	align-content: center;
  }
+
+#fakebox input{
+	height: 30px;
+	font-size: 30px
+
+}
