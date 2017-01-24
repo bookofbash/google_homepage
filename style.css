@@ -1,6 +1,6 @@
 
-#submit{
-	background-color: #e4e6e8;
+#button{
+	background-color: #F2F2F2;
 	-webkit-border-radius: 0px;
 	color: black;
 	font-size: 20px;
@@ -10,15 +10,79 @@
 	box-shadow: 0px 0px 0px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: auto;
 	display: inline;
+	box-sizing: width:60px;
+	height: 36px;
+	line-height: 27px
+
+
+
 }
 
-#submit:hover {
-	border: none;
-	background:#e4e6e8;
-	box-shadow: 0px 0px 1px
+#button:hover {
+	border: 1px ;
+	background:#F2F2F2;
+	box-shadow: 1px;
+}
+#button {
+	width: 140px; height: 40px;
+	padding-left: 16px; padding-right: 16px;
+	border:0px ;
+	webkit-border-radius:0px;
+	margin: 11px 4px 11px 4px;
+	text-align: center;
 
 }
 
-.fakesearch{
-	color:red;
+footer {
+	font-size: 13px;
+	background-color: #F2F2F2;
+	position: absolute;
+	border-top: 1px solid #E4E4E4;
+	height: 40px;
+	width: 100%;
+	right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+#left_footer {
+	text-align: left;
+	margin-bottom: 30px;
+	line-height: 50px;
+	background-color: #F2F2F2;
+	position: bottom;
+	margin-top: 260px;
+	float: left;
+}
+
+#right_footer {
+	text-align: right;
+	margin-bottom: 30px;
+	line-height: 50px;
+	background-color: #F2F2F2;
+	position: bottom
+	margin-top: 260px;
+	float:right;
+}
+
+
+div p {
+	padding-left: 20px;
+}
+
+
+ a {
+ 	padding-right: 20px;
+
+
+ }
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
