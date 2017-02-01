@@ -1,4 +1,28 @@
-.google_logo img {
-	vertical-align: middle;
-	}
+body {
+	margin: 0;
+	padding: 0:;
+	vertical-align: center;
 
+}
+
+.google_logo img {
+	display: block;
+	margin: auto;
+	display: flex;
+  align-items: center;
+}
+
+
+
+input { display: block;
+ 		margin: 0 auto; 
+ 		height: 34px;  
+ 		width: 403px; 
+ 		font: 16px arial sans-serif; 
+ 		line-height: 34px; 
+ 		height: 34px;
+    
+}
+header {
+	height: 200px
+}
